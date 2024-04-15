@@ -20,6 +20,7 @@ const Register = () => {
     }
   };
 
+
   //prevent for login user
   useEffect(() => {
     if (localStorage.getItem("user")) {
@@ -29,7 +30,7 @@ const Register = () => {
   return (
     <>
       {loading && <Spinner />}
-      <div className="resgister-page d-flex">
+      <div className="resgister-page d-flex" style={{ height: "80vh" }}>
         <Form layout="vertical" onFinish={submitHandler}>
           <h2>Welcome to Finance Management!!</h2>
           <h3>Register Form</h3>
