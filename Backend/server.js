@@ -16,7 +16,8 @@ const app = express();
 
 //middlewares
 app.use(morgan("dev"));
-app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json({ extended: true }));
 app.use(cors());
 
 //routes
@@ -24,15 +25,6 @@ app.use(cors());
 app.use("/api/v1/users", require("./routes/userRoute"));
 //transections routes
 app.use("/api/v1/transections", require("./routes/transectionRoutes"));
-
-
-// Serve static files from the 'frontend' directory
-app.use(express.static(path.join(__dirname, 'Frontend')));
-
-// Handle GET requests to serve the index.html file
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Frontend', 'public', 'index.html'));
-});
 
 //port
 const PORT = 8080 || process.env.PORT;
