@@ -35,5 +35,19 @@ A simple finance management application to help users to track their both your i
     * npm start
 
 
+# Setting Up a Backend for Your React App
 
+1. Choose a Backend Technology:
+* Decide on the backend technology you want to use. Common choices include Node.js with Express.
 
+2. Initialize Your Backend Project:
+* Create a new directory for your backend project.
+* Navigate into the directory
+   * run 'npm init -y'  
+
+3. Install Dependencies:
+   * npm install express mongoose cors dotenv moment
+
+4. Run Your Backend Server:
+   * node server.js
+     
