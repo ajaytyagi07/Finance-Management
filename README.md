@@ -1,3 +1,3 @@
-# Finance-Management
+# Finance-Management(MERN STACK Application)
 
 TEAM PROJECT
