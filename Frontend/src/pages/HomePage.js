@@ -128,7 +128,7 @@ const HomePage = () => {
       {loading && <Spinner />}
       <div className="filters">
         <div>
-          <h6>Select Frequency</h6>
+          <h6>Select Range</h6>
           <Select value={frequency} onChange={(values) => setFrequency(values)} >
             <Select.Option value="7">LAST 1 Week</Select.Option>
             <Select.Option value="30">LAST 1 Month</Select.Option>

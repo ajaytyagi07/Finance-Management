@@ -26,12 +26,13 @@ app.use("/api/v1/users", require("./routes/userRoute"));
 app.use("/api/v1/transections", require("./routes/transectionRoutes"));
 
 
-//static files
-app.use(express.static(path.join(__dirname, "./Frontend/public")));
+// Serve static files from the 'frontend' directory
+app.use(express.static(path.join(__dirname, 'Frontend')));
 
-app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, "./Frontend/public/index.html"));
-})
+// Handle GET requests to serve the index.html file
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'Frontend', 'public', 'index.html'));
+});
 
 //port
 const PORT = 8080 || process.env.PORT;
