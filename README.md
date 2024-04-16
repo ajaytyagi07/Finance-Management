@@ -29,7 +29,7 @@ A simple finance management application to help users to track their both your i
     * cd my-react-app
 
 3. Installing Dependencies:
-    * npm install axios moment react-dom react-redux react-router-dom
+    * npm install axios moment react-dom react-router-dom
 
 4. Start the Development Server:
     * npm start
