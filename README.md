@@ -15,3 +15,25 @@ A simple finance management application to help users to track their both your i
 * Manage Income Category wise
 * Transaction Analysis
 * User Authentication
+
+
+# Setting up a React App
+
+1. Create a New React App:
+* Open your terminal or command prompt.
+* Use npx (a npm package runner) to create a new React app. Replace my-react-app with your preferred project name:
+   * npx create-react-app my-react-app
+
+2. Navigate to the Project Directory:
+ * Move into your project directory using the cd command:
+    * cd my-react-app
+
+3. Installing Dependencies:
+    * npm install axios moment react-dom react-redux react-router-dom
+
+4. Start the Development Server:
+    * npm start
+
+
+
+
