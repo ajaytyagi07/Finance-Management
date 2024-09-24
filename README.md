@@ -15,6 +15,14 @@ A simple finance management application to help users to track their both your i
 * Transaction Analysis
 * User Authentication
 
+ 
+  ![fm2](https://github.com/user-attachments/assets/72d4264e-740b-4f4a-8a30-19daf8d226c7)
+  
+  ![fm3](https://github.com/user-attachments/assets/23a276c1-26ad-480d-ad62-3a0b8762d17c)
+  
+  ![fm1](https://github.com/user-attachments/assets/4a4e1738-a087-41b0-a98b-227847d9c09f)
+
+
 
 # Setting up a React App
 
